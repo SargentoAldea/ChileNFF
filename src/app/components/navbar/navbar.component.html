@@ -1,1 +1,15 @@
-<p>navbar works!</p>
+<nav class="navbar">
+  <div class="logo">Chile NFF</div>
+  
+  <div class="nav-links">
+    <button routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}" class="nav-button">Inicio</button>
+    <button routerLink="/especies" routerLinkActive="active-link" class="nav-button">Especies</button>
+    <button routerLink="/catalogo" routerLinkActive="active-link" class="nav-button">Catálogo</button>
+    <button routerLink="/contacto" routerLinkActive="active-link" class="nav-button">Contacto</button>
+  </div>
+
+  <div class="actions">
+    <input type="text" placeholder="Buscar especies..." />
+    <span class="cart-icon">🛒</span>
+  </div>
+</nav>
