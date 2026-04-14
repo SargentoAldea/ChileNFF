@@ -1,6 +1,6 @@
 Chile Natural: Flora y Fauna
 
-Proyecto de web desarrollada en Angular 17, busca promover el conocimiento y conservación de la flora y fauna Chilena, permitiendo explorar especies nativas, ofrecer productos relacionados y ofreciendo una forma de contacto para mayor información.
+Proyecto de web desarrollado en Angular 17, busca promover el conocimiento y conservación de la flora y fauna Chilena, permitiendo explorar especies nativas, ofrecer productos relacionados y ofreciendo una forma de contacto para mayor información.
 
 ¿Por qué se hace uso de los siguientes componentes?
 
