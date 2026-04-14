@@ -4,7 +4,7 @@ Proyecto de web desarrollado en Angular 17, busca promover el conocimiento y con
 
 ¿Por qué se hace uso de los siguientes componentes?
 
-Home: Es el Banner Principla con un llamado a la acción y pequeñas secciones de información sobre biodiversidad.
+Home: Es el Banner Principal con un llamado a la acción y pequeñas secciones de información sobre biodiversidad.
 
 SpeciesL: Corresponde al listado de especies, busca ser una visualización mas organizada de la flora y fauna haciendo uso de servicios para poder presentar datos de prueba
 
@@ -19,9 +19,9 @@ Contact: Formulario de contacto para recolectar información de usuarios interes
 Framework: Angular 17
 Lenguaje: TypeScript
 Estilos: CSS
-Arquitectura: Speración de responsabilidades haciendo uso de Servicios y Modelos de datos
+Arquitectura: Separación de responsabilidades haciendo uso de Servicios y Modelos de datos
 
 Instalación
 
 Primeramente Clonar repositorio con "git clone", luego usar "npm install" para instalar dependencias
-finalmente ejecutar usango ng serve --open
+finalmente ejecutar usando ng serve --open
