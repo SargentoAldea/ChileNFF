@@ -35,25 +35,25 @@
 
     <!-- direccion  del contacto-->
     <div class="form-group">
-      <label>Dirección</label>
+      <label>Gmail</label>
       <input type="text" formControlName="direccion">
 
       <small *ngIf="f['direccion'].touched && f['direccion'].errors?.['required']">
-        Dirección requerida
+        Gmail requerido
       </small>
 
       <small *ngIf="f['direccion'].touched && f['direccion'].errors?.['minlength']">
-        Mínimo 5 caracteres
+        Mínimo 8 caracteres
       </small>
     </div>
 
     <!-- numero de la casa -->
     <div class="form-group">
-      <label>Número</label>
+      <label>Rut</label>
       <input type="text" formControlName="numero">
 
       <small *ngIf="f['numero'].touched && f['numero'].errors?.['required']">
-        Número obligatorio
+        Rut obligatorio
       </small>
 
       <small *ngIf="f['numero'].touched && f['numero'].errors?.['pattern']">

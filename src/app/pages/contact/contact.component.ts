@@ -16,7 +16,7 @@ export class ContactComponent {
     this.formulario = this.fb.group({
       nombre: ['', [Validators.required, Validators.minLength(2)]],
       apellidos: ['', [Validators.required, Validators.minLength(3)]],
-      direccion: ['', [Validators.required, Validators.minLength(5)]],
+      direccion: ['', [Validators.required, Validators.minLength(8)]],
       numero: ['', [Validators.required, Validators.pattern('^[0-9]+$')]],
       ciudad: ['', Validators.required],
       fono: ['', [Validators.required, Validators.pattern('^[0-9]{9}$')]]
