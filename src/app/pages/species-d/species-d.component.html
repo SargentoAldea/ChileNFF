@@ -1,1 +1,33 @@
-<p>species-d works!</p>
+<div class="container detail-view" *ngIf="especie; else notFound">
+  <button routerLink="/especies" class="btn btn-outline">← Volver al listado</button>
+
+  <div class="detail-grid">
+    <div class="detail-image">
+      <img [src]="especie.imagen" [alt]="especie.nombre">
+    </div>
+
+    <div class="detail-info">
+      <span class="badge">{{ especie.categoria }}</span>
+      <h1>{{ especie.nombre }}</h1>
+      
+      <div class="status-box" *ngIf="especie.enPeligro">
+        <p>⚠️ <strong>Estado:</strong> En Peligro de Extinción</p>
+      </div>
+
+      <p class="full-description">
+        {{ especie.descripcionCompleta }}
+      </p>
+
+      <div class="actions">
+        <button routerLink="/contacto" class="btn btn-primary">Solicitar más información</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #notFound>
+  <div class="container">
+    <h2>Especie no encontrada</h2>
+    <button routerLink="/especies" class="btn btn-primary">Volver al catálogo</button>
+  </div>
+</ng-template>

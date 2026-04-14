@@ -1,1 +1,17 @@
-<p>species-l works!</p>
+<div class="container">
+  <h2>Especies de Chile</h2>
+  
+  <button class="btn btn-primary" (click)="ordenarAlfabeticamente()">Ordenar A-Z</button>
+
+  <div class="info-cards">
+    <div *ngFor="let especie of listaEspecies" class="card">
+      <img [src]="especie.imagen" [alt]="especie.nombre" style="width:100%">
+      <h3>{{ especie.nombre }}</h3>
+      <p>{{ especie.descripcionCorta }}</p>
+      
+      <button class="btn-primary" [routerLink]="['/especies', especie.id]" >
+        Ver Detalle
+      </button>
+    </div>
+  </div>
+</div>
