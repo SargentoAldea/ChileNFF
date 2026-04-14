@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --verde-principal: #2D6A4F; 
+  --verde-oscuro: #1B4332;
+  --blanco-fondo: #f8f9fa;
+  --gris-texto: #333;
+  --texto-suave: #666;
+  --sombra: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--blanco-fondo);
+  color: var(--gris-texto);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s;
+}
+
+.btn-primary {
+  background-color: var(--verde-principal);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--verde-oscuro);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid var(--verde-principal);
+  color: var(--verde-principal);
+}
