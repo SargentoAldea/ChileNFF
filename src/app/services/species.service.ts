@@ -48,11 +48,11 @@ export class SpeciesService {
 
     {
       id: 5,
-      nombre: 'Copiue',
+      nombre: 'Copihue',
       categoria: 'Flora',
       descripcionCorta: 'Flor Nacional.',
       descripcionCompleta: 'Lapageria rosea, llamada popularmente copihue, es una planta enredadera perennifolia​ perteneciente al orden Liliales e integrante de la familia Philesiaceae, ​​​​​​ conforme a la clasificación filogenética, o Smilacaceae, ​​​ según la clasificación biológica.',
-      imagen: 'assets/copiue.jpg',
+      imagen: 'assets/copihue.webp',
       enPeligro: true
     },
 
