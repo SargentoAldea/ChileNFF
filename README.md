@@ -1,27 +1,27 @@
-# ChileNFF
+Chile Natural: Flora y Fauna
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+Proyecto de web desarrollada en Angular 17, busca promover el conocimiento y conservación de la flora y fauna Chilena, permitiendo explorar especies nativas, ofrecer productos relacionados y ofreciendo una forma de contacto para mayor información.
 
-## Development server
+¿Por qué se hace uso de los siguientes componentes?
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Home: Es el Banner Principla con un llamado a la acción y pequeñas secciones de información sobre biodiversidad.
 
-## Code scaffolding
+SpeciesL: Corresponde al listado de especies, busca ser una visualización mas organizada de la flora y fauna haciendo uso de servicios para poder presentar datos de prueba
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+SpeciesD: Corresponde a la vista detallada hecha con el fin de dar a conocer más a fondo cada especie
 
-## Build
+Catalogo: Galeria de productos con precios y categorias correspondientes
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Contact: Formulario de contacto para recolectar información de usuarios interesados.
 
-## Running unit tests
+¿Qué se Utilizo?
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Framework: Angular 17
+Lenguaje: TypeScript
+Estilos: CSS
+Arquitectura: Speración de responsabilidades haciendo uso de Servicios y Modelos de datos
 
-## Running end-to-end tests
+Instalación
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Primeramente Clonar repositorio con "git clone", luego usar "npm install" para instalar dependencias
+finalmente ejecutar usango ng serve --open
