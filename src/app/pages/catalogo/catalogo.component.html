@@ -1,1 +1,18 @@
-<p>catalogo works!</p>
+<div class="container">
+  <h2 class="section-title">Catálogo de Subproductos</h2>
+  <p>Apoya la conservación llevando un recuerdo de nuestra fauna.</p>
+
+  <div class="info-grid">
+    <div *ngFor="let prod of listaProductos" class="card">
+      <img [src]="prod.imagen" [alt]="prod.nombre">
+      <div class="card-body">
+        <span class="badge">{{ prod.categoria }}</span>
+        <h3 class="card-title">{{ prod.nombre }}</h3>
+        <p class="price-tag">${{ prod.precio | number:'1.0-0' }}</p> 
+        <button class="btn btn-primary" style="width: 100%; margin-top: 10px;">
+          🛒 Añadir al carrito
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
